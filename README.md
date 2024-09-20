@@ -18,8 +18,8 @@ Covers a statistical question of whether smoking increases health risks to the h
 Project uses TextBlob Sentiment Analyzer to classify movie reviews as positive or negative, along with other text manipulation exercises. 
 # 7.	Big Data – An Introduction to Apache Spark using Scala and PySpark
 This project dives into Apache Spark’s capabilities using both PySpark and Scala as well as experimenting with data generation and transformations.
-# 8.	Applied Data Science/Predicting Calories Burned by the Human Body
+# 8.	Applied Data Science - Predicting Calories Burned by the Human Body
 A project on Predicting calories burned by the human body to help curb the obesity pandemic. Weight loss is directly correlated to calories burned thus the research findings would help shed light on high-ranking variables that potentially would be of highest impact than other variables, thus enlightening individuals on areas of focus A real life application scenario is presented.  
-# 9.	Applied Data Science/<Placeholder>
-# 10.	 Applied Data Science/<Placeholder> 
+# 9.	Applied Data Science Placeholder
+# 10.	 Applied Data Science Placeholder
 
