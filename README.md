@@ -1,8 +1,11 @@
 # Data-Science-Portfolio
-## Introduction:
+
+## Introduction
 My name is Ruth Maina and I am so pleased you’re reviewing my portfolio. I am very passionate about data and especially data science and all it has to offer. I am proficient in R, Python, and SQL programming languages, using tools such as Jupyter Notebook, Power BI, Pycharm, just to name a few. With the tools, knowledge and expertise I acquired in Bellevue University Data Science master’s program, I am motivated and very eager to contribute to the field of Data Science.
-# Contents Overview:
+
+## Content Overview
 This GitHub repository contains a collection of various projects I've been working on, highlighting diverse topics, skills, and techniques. Feel free to browse through the folders and explore each project in detail.
+
 ## 1.	R - Analysis on Obesity  
 This is an analysis of Obesity using R programming language. My main data point is to explore obesity data for the last ten years, to let the data tell a story on how this is trending and perform a prediction of where this could go in the next few years. I begin with data prep, data cleansing, then I share an analysis and insight gathered from the exploration step, with screenshots of the code output embedded into the pdf document. 
 ## 2.	R - Markdown Exercise  
