@@ -1,0 +1,1 @@
+This project helps spread the word on the truth about airlines. The project is divided into multiple deliverables beginning with an executive summary of findings directed at the senior leaders that care about the portrayal of the industry and their airline specifically. A supporting blogpost is included with an infographic on the same topic directed at the general audience.
