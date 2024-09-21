@@ -12,7 +12,7 @@ This is an analysis of Obesity using R programming language. My main data point 
 This is a two-part exercise that explores adult’s earnings dataset using R programming language. Basic statistics and relationships between the variables are explored as well as predictions of earnings. 
 The second part is a housing dataset for house sale predictions that also explores how to perform transformations and multicollinearity.
 ## 3.	R, Power BI and Python  
-Visualization of Costo locations: This project focuses on creating heat maps, spatial charts, and lollipop charts using R, Power BI and Python. 
+This project provides visualizations using R, Power BI and Python. Chart types include heat maps, spatial charts, and lollipop  
 ## 4.	Storytelling with Data   
 This project helps spread the word on the truth about airlines. The project is divided into multiple deliverables beginning with an executive summary of findings directed at the senior leaders that care about the portrayal of the industry and their airline specifically. A supporting blogpost is included with an infographic on the same topic directed at the general audience.  
 ## 5.	Python EDA - Exploration and Analysis of Smoking data
