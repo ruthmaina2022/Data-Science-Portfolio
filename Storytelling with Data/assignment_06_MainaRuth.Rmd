@@ -1,0 +1,84 @@
+---
+title: "DSC520_10.2 Exercise"
+author: "Ruth Maina"
+date: '2023-02-25'
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+bibliography: bibliography.bib
+---
+
+
+# 1. Fit a Logistic Regression Model to Thoracic Surgery Binary Dataset
+# a. For this problem, you will be working with the thoracic surgery data set from the University of California Irvine machine learning repository. This dataset contains information on life expectancy in lung cancer patients after surgery. The underlying thoracic surgery data is in ARFF format. This is a text-based format with information on each of the attributes. You can load this data using a package such as foreign or by cutting and pasting the data section into a CSV file.
+```{r, include=TRUE}
+setwd("C:/Users/KiluWorksEnterprise/OneDrive/Desktop/Ruth Bellevue/DSC520/DSC520_RuthMaina/dsc520")
+library(foreign)
+thoracic_df <- foreign::read.arff("data/ThoraricSurgery.ARFF")
+head(thoracic_df)
+``` 
+# b. Assignment Instructions:
+# i. Fit a binary logistic regression model to the data set that predicts whether or not the patient survived for one year (the Risk1Y variable) after the surgery. Use the glm() function to perform the logistic regression. See Generalized Linear Models for an example. Include a summary using the summary() function in your results.   
+```{r, include=TRUE}
+setwd("C:/Users/KiluWorksEnterprise/OneDrive/Desktop/Ruth Bellevue/DSC520/DSC520_RuthMaina/dsc520")
+survived_one_year <- glm(Risk1Yr ~ PRE4 + PRE5 + PRE14 + AGE, data=thoracic_df, family=binomial, na.action=na.omit)
+summary(survived_one_year)
+```
+# ii. According to the summary, which variables had the greatest effect on the survival rate?
+## My rationale: PRE14OC13 and PRE14OC14 are indicating statistical significance due to having lowest p values
+
+# iii. To compute the accuracy of your model, use the dataset to predict the outcome variable. The percent of correct predictions is the accuracy of your model. What is the accuracy of your model?
+
+```{r, include=TRUE}
+setwd("C:/Users/KiluWorksEnterprise/OneDrive/Desktop/Ruth Bellevue/DSC520/DSC520_RuthMaina/dsc520")
+modelAcc <- predict(survived_one_year, type = 'response')
+confusion_mat <- table(value1=thoracic_df$Risk1Yr, value2 = modelAcc > 0.5)
+confusion_mat 
+accuracy_estimate <- sum(diag(confusion_mat)) / sum(confusion_mat)
+accuracy_estimate 
+```
+## My rationale for above: The percent of correct predicions per above is 0.851 which is approximately 85%
+
+# 2. Fit a Logistic Regression Model
+# a. Fit a logistic regression model to the binary-classifier-data.csv dataset
+
+```{r, include=TRUE}
+setwd("C:/Users/KiluWorksEnterprise/OneDrive/Desktop/Ruth Bellevue/DSC520/DSC520_RuthMaina/dsc520")
+binaryClass_df <- read.csv("data/binary-classifier-data.csv")
+head(binaryClass_df)
+
+
+```
+# b. The dataset (found in binary-classifier-data.csv) contains three variables; label, x, and y. The label variable is either 0 or 1 and is the output we want to predict using the x and y variables.
+# i.What is the accuracy of the logistic regression classifier?
+
+```{r, include=TRUE}
+
+setwd("C:/Users/KiluWorksEnterprise/OneDrive/Desktop/Ruth Bellevue/DSC520/DSC520_RuthMaina/dsc520")
+library(caTools)
+
+binaryClass_df$label <- as.factor(binaryClass_df$label)
+
+binaryLogRegMd <- glm(binaryClass_df$label ~ binaryClass_df$x + binaryClass_df$y, family=binomial, na.action=na.omit)
+summary(binaryLogRegMd)
+
+model_binary <- predict(binaryLogRegMd, test.type = 'response')
+
+model_binary <- predict(binaryLogRegMd, train.type = 'response')
+
+confusion_mat2 <- table(value1=binaryClass_df$label, value2 = model_binary > 0.5)
+confusion_mat2 
+
+accuracy_estimate2 <- sum(diag(confusion_mat2)) / sum(confusion_mat2)
+accuracy_estimate2 
+```
+## My rationale for above: The percent of correct predicions per above is 0.51 which is approximately 51%
+# ii.Keep this assignment handy, as you will be comparing your results from this week to next week.
+
+## Citations
+
+* R for Everyone [@lander2014r]
+* Discovering Statistics Using R[@field2012discovering]
+
+## References
