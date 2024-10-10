@@ -1,8 +1,8 @@
 # Data-Science-Portfolio
 
 ## About Me
-#### I am deeply enthusiastic about data science and its vast opportunities. My proficiency spans various tools including programming languages like R, Python and SQL, as well as platforms such as Jupyter Notebook, Power BI, and  Tableau, among others. Armed with the knowledge and expertise gained through this program, I am highly motivated and eager to make meaningful contributions to the field of data science. Feel free to reach out with any questions, comments, or concerns. 
-* You can contact me via email at rmaina@my365.bellevue.edu
+#### My name is Ruth Maina and I am so pleased you’re reviewing my portfolio. I am very passionate about data and especially data science and all it has to offer. I am proficient in R, Python, and SQL programming languages, using tools such as Jupyter Notebook, Power BI, Pycharm, just to name a few. With the tools, knowledge and expertise I acquired in Bellevue University Data Science master’s program, I am motivated and very eager to contribute to the field of Data Science. 
+* You may contact me via email at rmaina@my365.bellevue.edu
 
 ## Content Overview
 This GitHub repository contains a collection of various projects I've been working on, highlighting diverse topics, skills, and techniques. Feel free to browse through the folders and explore each project in detail.
