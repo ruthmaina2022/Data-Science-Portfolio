@@ -23,6 +23,7 @@ Project uses TextBlob Sentiment Analyzer to classify movie reviews as positive o
 This project dives into Apache Spark’s capabilities using both PySpark and Scala as well as experimenting with data generation and transformations.
 ## 8.	Applied Data Science - Predicting Calories Burned by the Human Body
 A project on Predicting calories burned by the human body to help curb the obesity pandemic. Weight loss is directly correlated to calories burned thus the research findings would help shed light on high-ranking variables that potentially would be of highest impact than other variables, thus enlightening individuals on areas of focus A real life application scenario is presented.  
-## 9.	Applied Data Science Placeholder
+## 9.	Applied Data Science - A Comprehensive Exploration of the Obesity Epidemic
+* The project is an analysis of Obesity using R programming language. My main data point is to explore obesity data for the last ten years, to let the data tell a story on how this is trending and perform a prediction of where this could go in the next few years. I begin with data prep, data cleansing, then I share an analysis and insight gathered from the exploration step, with screenshots of the code output embedded into the pdf document.
 ## 10.	 Applied Data Science Placeholder
 
