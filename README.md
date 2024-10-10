@@ -1,7 +1,8 @@
 # Data-Science-Portfolio
 
 ## About Me
-#### I am deeply enthusiastic about data science and its vast opportunities. My proficiency spans various tools including programming languages like R, Python and SQL, as well as platforms such as Jupyter Notebook, Power BI, and  Tableau, among others. Armed with the knowledge and expertise gained through this program, I am highly motivated and eager to make meaningful contributions to the field of data science. Feel free to reach out with any questions, comments, or concerns. You can contact me via email at rmaina@my365.bellevue.edu
+#### I am deeply enthusiastic about data science and its vast opportunities. My proficiency spans various tools including programming languages like R, Python and SQL, as well as platforms such as Jupyter Notebook, Power BI, and  Tableau, among others. Armed with the knowledge and expertise gained through this program, I am highly motivated and eager to make meaningful contributions to the field of data science. Feel free to reach out with any questions, comments, or concerns. 
+* You can contact me via email at rmaina@my365.bellevue.edu
 
 ## Content Overview
 This GitHub repository contains a collection of various projects I've been working on, highlighting diverse topics, skills, and techniques. Feel free to browse through the folders and explore each project in detail.
