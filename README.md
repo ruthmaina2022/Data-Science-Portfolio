@@ -27,3 +27,5 @@ A project on Predicting calories burned by the human body to help curb the obesi
 The project is an analysis of Obesity using R programming language. My main data point is to explore obesity data for the last ten years, to let the data tell a story on how this is trending and perform a prediction of where this could go in the next few years. I begin with data prep, data cleansing, then I share an analysis and insight gathered from the exploration step, with screenshots of the code output embedded into the pdf document.
 ## 10.	 Applied Data Science Placeholder
 
+# About Me
+I am deeply enthusiastic about data science and its vast opportunities. My proficiency spans various tools including programming languages like Python and SQL, as well as platforms such as Jupyter Notebook and Tableau, among others. Armed with the knowledge and expertise gained through this program, I am highly motivated and eager to make meaningful contributions to the field of data science. Feel free to reach out with any questions, comments, or concerns. You can contact me via email at rmaina@my365.bellevue.edu
