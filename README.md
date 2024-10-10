@@ -6,8 +6,8 @@ My name is Ruth Maina and I am so pleased you’re reviewing my portfolio. I am 
 ## Content Overview
 This GitHub repository contains a collection of various projects I've been working on, highlighting diverse topics, skills, and techniques. Feel free to browse through the folders and explore each project in detail.
 
-## 1.	R - Analysis on Obesity  
-This is an analysis of Obesity using R programming language. My main data point is to explore obesity data for the last ten years, to let the data tell a story on how this is trending and perform a prediction of where this could go in the next few years. I begin with data prep, data cleansing, then I share an analysis and insight gathered from the exploration step, with screenshots of the code output embedded into the pdf document. 
+## 1.	R - Data Analysis Exercise  
+This is a data analysis exercise using R programming language. Various visualizations using ggplot library are included 
 ## 2.	R - Markdown Exercise  
 This is a two-part exercise that explores adult’s earnings dataset using R programming language. Basic statistics and relationships between the variables are explored as well as predictions of earnings. 
 The second part is a housing dataset for house sale predictions that also explores how to perform transformations and multicollinearity.
