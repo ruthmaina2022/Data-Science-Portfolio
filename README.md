@@ -5,7 +5,7 @@
 * You may contact me via email at rmaina@my365.bellevue.edu
 
 ## Content Overview
-This GitHub repository contains a collection of various projects I've been working on, highlighting diverse topics, skills, and techniques. Feel free to browse through the folders and explore each project in detail.
+This GitHub repository contains a collection of various projects I've been working on, highlighting diverse topics, skills, and techniques. Feel free to browse through the folders and explore each project in detail. Some folders contain multiple exercises and files - a readme file with additional description is included for each folder 
 
 ## 1.	R - Data Analysis Exercise  
 This is a data analysis exercise using R programming language - focuses on visualizations using ggplot library  
