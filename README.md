@@ -14,8 +14,9 @@ This is a two-part exercise that explores adult’s earnings dataset using R pro
 The second part is a housing dataset for house sale predictions that also explores how to perform transformations and multicollinearity.
 ## 3.	R, Power BI and Python  
 This project focuses on visualizations using R, Power BI and Python. Chart types include heat maps, spatial charts, and lollipops, highlighting how to use the different tools to achieve the same result - for versatility.  
-## 4.	Storytelling with Data   
-This project helps spread the word on the truth about airlines. The project is divided into multiple deliverables beginning with an executive summary of findings directed at the senior leaders that care about the portrayal of the industry and their airline specifically. A supporting blogpost is included with an infographic on the same topic directed at the general audience.  
+## 4.	Architectural Diagram Sample for a Real-time Fraud Detection System
+This is project is a high-level architecture diagram that encompasses Big Data tools: HDFS, YARN, Hive, HBase, Spark, Kafka, Solr, and NiFi.
+Briefly touches upon the role of each tool in the proposed solution.
 ## 5.	Python EDA - Exploration and Analysis of Smoking data
 Covers a statistical question of whether smoking increases health risks to the human body and If so, what would be the effect of smoking on blood pressure, cholesterol, and any other health biomarkers.  
 ## 6.	Python Data Mining - Sentiment Analysis and Preprocessing Text exercise 
@@ -26,6 +27,8 @@ This project dives into Apache Spark’s capabilities using both PySpark and Sca
 A project on Predicting calories burned by the human body to help curb the obesity pandemic. Weight loss is directly correlated to calories burned thus the research findings would help shed light on high-ranking variables that potentially would be of highest impact than other variables, thus enlightening individuals on areas of focus A real life application scenario is presented.  
 ## 9.	Applied Data Science - A Comprehensive Exploration of the Obesity Epidemic
 The project is an analysis of Obesity using R programming language. My main data point is to explore obesity data for the last ten years, to let the data tell a story on how this is trending and perform a prediction of where this could go in the next few years. I begin with data prep, data cleansing, then I share an analysis and insight gathered from the exploration step.
-## 10.	 Applied Data Science Placeholder
+## 10.	 Applied Data Science - Airline Safety / Storytelling with Data
+The aim of this project is to provide information and trends on airlines as the safest way to travel, especially when compared to automobiles. Using curated visualizations and storytelling techniques, the project will help multiple groups in the organization combat this negative publicity and help tell the airline's side of the story. The project is divided into multiple deliverables beginning with an executive summary of findings directed at the senior leaders that care about the portrayal of the industry and their airline specifically. A supporting blogpost is included with an infographic on the same topic directed at the general audience.
+
 
 
