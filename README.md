@@ -14,7 +14,7 @@ This is a two-part exercise that explores adult’s earnings dataset using R pro
 The second part is a housing dataset for house sale predictions that also explores how to perform transformations and multicollinearity.
 ## 3.	R, Power BI and Python  
 This project focuses on visualizations using R, Power BI and Python. Chart types include heat maps, spatial charts, and lollipops, highlighting how to use the different tools to achieve the same result - for versatility.  
-## 4.	Architectural Diagram Sample for a Real-time Fraud Detection System
+## 4.	Big Data - Architectural Diagram Sample for a Real-time Fraud Detection System
 This is project is a high-level architecture diagram that encompasses Big Data tools: HDFS, YARN, Hive, HBase, Spark, Kafka, Solr, and NiFi.
 Briefly touches upon the role of each tool in the proposed solution.
 ## 5.	Python EDA - Exploration and Analysis of Smoking data
